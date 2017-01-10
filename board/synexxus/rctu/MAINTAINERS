@@ -1,0 +1,6 @@
+RCTU BOARD
+M:	Thomas Johnson <tjohnson@synexxus.com>
+S:	Maintained
+F:	board/synexxus/rctu/
+F:	include/configs/rctu.h
+F:	configs/rctu_defconfig
