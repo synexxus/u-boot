@@ -884,7 +884,7 @@ static int atmel_pmecc_nand_init_params(struct nand_chip *nand,
 		host->pmecc_index_table_offset = ATMEL_PMECC_INDEX_OFFSET_1024;
 #endif
 
-	MTDDEBUG(MTD_DEBUG_LEVEL1,
+	dev_dbg(host->dev,
 		"Initialize PMECC params, cap: %d, sector: %d\n",
 		cap, sector_size);
 

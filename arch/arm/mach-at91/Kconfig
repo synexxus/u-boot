@@ -124,6 +124,11 @@ config TARGET_TAURUS
 	select CPU_ARM926EJS
 	select SUPPORT_SPL
 
+config TARGET_RCTU
+	bool "RCTU board"
+	select CPU_V7
+	select SUPPORT_SPL
+
 endchoice
 
 config SYS_SOC
@@ -156,5 +161,6 @@ source "board/ronetix/pm9g45/Kconfig"
 source "board/siemens/corvus/Kconfig"
 source "board/siemens/taurus/Kconfig"
 source "board/taskit/stamp9g20/Kconfig"
+source "board/synexxus/rctu/Kconfig"
 
 endif
