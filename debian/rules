@@ -40,6 +40,8 @@ override_dh_auto_build:
 		>> debian/build/targets.armhf
 	echo tools/env/fw_env.config /etc \
 		>> debian/build/targets.armhf
+	echo flash-uboot /usr/bin \
+		>> debian/build/targets.armhf
 
 override_dh_auto_test:
 	#skip tests
