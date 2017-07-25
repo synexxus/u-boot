@@ -1,0 +1,12 @@
+#!/bin/sh
+
+IS_SAMA5=$(cat /proc/cpuinfo | grep "Hardware" | grep -c "Atmel SAMA5" | cat)
+
+if [ "$IS_SAMA5" -ne "1" ]
+then
+	echo "This is not a SAMA5 processor - can't flash"
+	exit 1
+fi
+
+flash_erase /dev/u-boot 0 0
+nandwrite -p /dev/u-boot /boot/u-boot.bin
