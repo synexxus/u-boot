@@ -22,6 +22,8 @@ case "$1" in
     configure)
     ;;
 
+    flash-uboot || true
+
     abort-upgrade|abort-remove|abort-deconfigure)
     ;;
 
