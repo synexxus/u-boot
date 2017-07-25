@@ -10,6 +10,7 @@ Homepage: <insert the upstream URL, if relevant>
 
 Package: u-boot-rctu
 Architecture: any
+Conflicts: u-boot-tools
 Depends: ${shlibs:Depends}, ${misc:Depends}, mtd-utils
 Description: U-Boot binaries for the RCTU
  U-Boot binaries and tools for the RCTU

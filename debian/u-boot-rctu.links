@@ -1,1 +1,1 @@
-/bin/fw_printenv /bin/fw_setenv
+/usr/bin/fw_printenv /usr/bin/fw_setenv
