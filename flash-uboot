@@ -8,5 +8,11 @@ then
 	exit 1
 fi
 
+if [ ! -e /dev/u-boot ]
+then
+	echo "Can't find /dev/u-boot: can't flash uboot"
+	exit 1
+fi
+
 flash_erase /dev/u-boot 0 0
 nandwrite -p /dev/u-boot /boot/u-boot.bin
