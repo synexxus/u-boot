@@ -182,4 +182,14 @@
 
 #endif
 
+/* Watchdog support */
+#define CONFIG_AT91SAM9_WATCHDOG
+/* Watchdog can be at most 16 seconds */
+#define CONFIG_AT91_HW_WDT_TIMEOUT 15
+
+#if !defined(CONFIG_SPL_BUILD)
+/* Enable the watchdog */
+#define CONFIG_HW_WATCHDOG
+#endif
+
 #endif
