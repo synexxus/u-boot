@@ -1,3 +1,9 @@
+u-boot-rctu (1.1) UNRELEASED; urgency=medium
+
+  * Bumped version after release
+
+ -- Robert Middleton <robert@robert-desktop>  Tue, 15 May 2018 15:07:53 -0400
+
 u-boot-rctu (1.0) unstable; urgency=low
 
   * Initial Release.
