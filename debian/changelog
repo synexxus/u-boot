@@ -1,5 +1,5 @@
-u-boot-rctu (1.0) UNRELEASED; urgency=low
+u-boot-rctu (1.0) unstable; urgency=low
 
   * Initial Release.
 
- -- Robert Middleton <rmiddleton@synexxus.com>  Tue, 25 Jul 2017 16:40:37 -0400
+ -- Robert Middleton <robert@robert-desktop>  Tue, 15 May 2018 14:57:15 -0400
