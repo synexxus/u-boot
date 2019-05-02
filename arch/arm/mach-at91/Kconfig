@@ -124,6 +124,11 @@ config TARGET_TAURUS
 	select CPU_ARM926EJS
 	select SUPPORT_SPL
 
+config TARGET_LEDGATEWAY
+	bool "LEDGateway board"
+	select CPU_V7
+	select SUPPORT_SPL
+
 endchoice
 
 config SYS_SOC
