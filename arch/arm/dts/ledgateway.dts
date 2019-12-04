@@ -211,6 +211,10 @@
 				status = "okay";
 			};
 
+			watchdog@fffffe40 {
+				status = "okay";
+			};
+
 			pinctrl@fffff200 {
 				board {
 					u-boot,dm-pre-reloc;
