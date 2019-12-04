@@ -1,0 +1,12 @@
+if TARGET_LEDGATEWAY
+
+config SYS_BOARD
+	default "ledgateway"
+
+config SYS_VENDOR
+	default "synexxus"
+
+config SYS_CONFIG_NAME
+	default "ledgateway"
+
+endif

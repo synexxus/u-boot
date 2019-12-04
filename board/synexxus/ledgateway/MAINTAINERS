@@ -1,0 +1,6 @@
+SAMA5D3_XPLAINED BOARD
+M:	Robert Middleton <rmiddleton@synexxus.com>
+S:	Maintained
+F:	board/synexxus/gateway/
+F:	include/configs/ledgateway.h
+F:	configs/ledgateway_defconfig
