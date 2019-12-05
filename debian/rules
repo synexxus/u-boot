@@ -31,6 +31,7 @@ override_dh_auto_build:
 	$(MAKE) O=$$builddir ledgateway_defconfig; \
 	$(MAKE) O=$$builddir all; \
 	$(MAKE) O=$$builddir env; \
+	$(MAKE) O=$$builddir envtools; \
 	for target in $$targets; do \
 		chmod -x $$builddir/$$target; \
 		echo $$builddir/$$target /boot \
@@ -39,8 +40,6 @@ override_dh_auto_build:
 	echo $$builddir/tools/env/fw_printenv /usr/bin \
 		>> debian/build/targets.armhf
 	echo tools/env/fw_env.config /etc \
-		>> debian/build/targets.armhf
-	echo flash-uboot /usr/bin \
 		>> debian/build/targets.armhf
 
 override_dh_auto_test:
