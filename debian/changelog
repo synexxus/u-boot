@@ -1,8 +1,8 @@
-u-boot-ledgateway (1.1) UNRELEASED; urgency=medium
+u-boot-ledgateway (1.1) unstable; urgency=medium
 
   * Enable watchdog
 
- -- Robert Middleton <rmiddleton@synexxus.com>  Wed, 04 Dec 2019 16:43:30 -0500
+ -- Robert Middleton <rmiddleton@synexxus.com>  Fri, 13 Dec 2019 11:39:17 -0500
 
 u-boot-ledgateway (1.0) unstable; urgency=low
 
